@@ -11,8 +11,14 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   },
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "tsc"
+  },
   "dependencies": {
     "git-commit-msg-linter": "^5.0.4",
-    "knex": "^2.4.2"
+    "knex": "^2.4.2",
+    "ts-node-dev": "^2.0.0"
   }
 }
